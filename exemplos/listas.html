@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas no HTML</title>
+</head>
+<body>
+    <h1>Usando as principais listas</h1>
+    <hr>
+
+    <p>Listas são estruturas úteis para a criação de relação de itens.</p>
+
+    <h2>Lista não-ordenada</h2>
+
+    <!-- 
+    ul -> determina a lista não-ordenada
+    li -> determina item da lista
+     -->
+
+    <ul>
+        <li>Teclado</li>
+        <li>Mouse</li>
+        <li>Webcam</li>
+        <li>Headset</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+
+    <ol>
+        <li>Ligar o computador</li>
+        <li>Digite usuário/senha</li>
+        <li>Aguarde o SO carregar</li>
+        <li>Procure e abra o programa desejado</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Eligendi, accusamus non asperiores dolor ad consequuntur sequi voluptates numquam earum et dignissimos, a officiis veritatis doloribus modi quaerat eos, fugiat iste.</li>
+    </ol>
+
+    <hr>
+
+    <!-- Atalho para criação de tags 
+    Exemplo: ul>li*5 
+    Será criado uma lista ul com 5 
+    li dentro -->
+
+    <h2>Listas dentro de listas (ou listas aninhadas)</h2>
+
+    <ul>
+
+        <li>Salgados
+            <ul>
+                <li>Esfiha</li>
+                <li>Pizza</li>
+                <li>Coxinha</li>
+            </ul>
+        </li>
+        <li>Doces
+            <ul>
+                <li>Sorvete
+                    <ul>
+                        <li>Flocos</li>
+                        <li>Creme</li>
+                    </ul>
+                </li>
+                <li>Brigadeiro</li>
+                <li>Bolo
+                    <ul>
+                        <li>Laranja</li>
+                        <li>Prestígio</li>
+                    </ul>
+                </li>
+                <li>Chocolate</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Exemplo de código inválido
+    segundo o site de validação 
+    (https://validator.w3.org) -->
+    <!-- <p>
+        <ul>
+            <li>teste 1</li>
+            <li>teste 2</li>
+        </ul>
+    </p> -->
+
+</body>
+</html>
