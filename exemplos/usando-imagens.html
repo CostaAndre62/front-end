@@ -11,18 +11,60 @@
     <hr>
     <h2>Formatos mais comuns:</h2>
     <ul>
-        <li>JPG/JPEG</li>
-        <li>GIF</li>
-        <li>PNG</li>
-        <li>SVG</li>
+        <!-- Bitmap (pixels) -->
+        <li>JPG/JPEG: fotos em geral</li>
+        <li>GIF: desenhos simples e/ou animações (limite de 256 cores)</li>
+        <li>PNG: fotos em geral, suporta transparência</li>
+
+        <!-- Vetor (nós, curvas) -->
+        <li>SVG: imagens vetoriais.</li>
     </ul>
 
     <h2>Elemento/Tag e atributos para imagem</h2>
 
+    <h3>Exemplos:</h3>
+
     <img src="imagens/pink-floyd.jpg" alt="Integrantes do Pink Floyd acenando para o público">
 
-    <!-- leitor de tela (nvda) -->
+    <!-- 
+    src -> source/origem/caminho/nome/extensão
+    alt -> texto alternativo
+     -->
+    <p>
+        <img src="imagens/computer.gif" alt="">
+    </p>
 
+    <p>
+        <img src="imagens/logo-html5.png" alt="">
+        <img src="imagens/logo-css3.gif" alt="">
+        <img src="imagens/logo-javascript.gif" alt="">
+    </p>
+
+    <p> <img src="imagens/logo-html5.png" alt=""> </p>
+    <p> <img src="imagens/logo-css3.gif" alt=""> </p>
+    <p> <img src="imagens/logo-javascript.gif" alt=""> </p>
+
+    <figure>
+        <img src="imagens/stonehenge.jpg" alt="">
+        <figcaption>Viagem de férias ao Stonehenge realizada em 2015.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="imagens/logo-html5.png" alt="">
+        <img src="imagens/logo-css3.gif" alt="">
+        <img src="imagens/logo-javascript.gif" alt="">
+        <figcaption>
+            Tecnologias de desenvolvimento Front-End.
+        </figcaption>
+    </figure>
+    
+    <p>
+        <img src="imagens/black-cat.png" alt="">
+    </p>
+
+    <p>
+        <img src="imagens/black-cat.svg" alt="">
+    </p>
 
 </body>
 </html>
