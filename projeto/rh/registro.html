@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - ABC Tecnologia</title>
+</head>
+<body>
+    <h1>Registro de Candidatos</h1>
+    
+    <!-- Container/Grupo de campos do
+    formulário -->
+    <form action="" method="post">
+
+        <p>
+            <label for="nome">Nome:</label>
+            <input required type="text" name="nome" id="nome">
+        </p>
+        
+        <p>
+            <label for="data">Data de nascimento:</label>
+            <input type="date" name="data" id="data">
+        </p>
+
+        <p>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone">
+        </p>
+
+        <p>
+            <label for="email">E-mail:</label>
+            <input maxlength="50" type="email" name="email" id="email">
+        </p>
+
+        <p>
+            <label for="vaga">Escolha a vaga:</label>
+            <select name="vaga" id="vaga">
+                <option value=""></option>
+                <option value="">Programador Java</option>
+                <option value="">Instrutor Excel</option>
+                <option value="">Analista de MKT</option>
+            </select>
+        </p>
+
+        <button type="submit" id="enviar" name="enviar">Enviar</button>
+    </form>
+
+</body>
+</html>

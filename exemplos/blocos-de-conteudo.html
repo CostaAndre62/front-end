@@ -5,14 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blocos de Conteúdo</title>
-
+    
     <!-- Folha de Estilos INTERNA -->
     <style>
+    /* COMENTÁRIOS NO CSS */
+    
+    /* REGRAS CSS */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 { font-family: Georgia, Arial, Verdana, serif; }
+
     h2 { 
-        text-transform: lowercase; 
+        text-transform: uppercase; 
         color: blue;
     }
+
+    p { color: darkred; }
+
+    /* Seletor DESCENDENTE:
+    Formatar os parágrafos contidos no footer */
+    footer p { color: blue; }
+
+    b { background-color: white; }
+
     </style>
+
+    <link rel="stylesheet" href="estilos.css">
+
 </head>
 <body>
     
@@ -34,7 +55,7 @@
     <main>
         <article>
             <h2>Classic Rock</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat illum consequatur numquam maiores nobis amet ipsam ipsum laudantium, minima, omnis est odio doloribus maxime consequuntur dolor asperiores. Assumenda, consectetur cupiditate.</p>
+            <p><b>Lorem</b> ipsum dolor sit, amet consectetur adipisicing elit. Repellat illum consequatur numquam maiores nobis amet ipsam ipsum laudantium, minima, omnis est odio doloribus maxime consequuntur dolor asperiores. Assumenda, consectetur cupiditate.</p>
         </article>
         <article>
             <h2 style="color: orange">
@@ -51,7 +72,7 @@
 
     <!-- RODAPÉ -->
     <footer>
-        <p>Site desenvolvido pela empresa Impacta</p>
+        <p>Site desenvolvido pela empresa Impacta</p>    
     </footer>
 
 </body>
