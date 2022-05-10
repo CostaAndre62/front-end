@@ -12,3 +12,16 @@
 ## Bancos de imagens
 - [Pixabay](https://pixabay.com/)
 - [Unsplash](https://unsplash.com/)
+
+
+## Dicas da turma:
+
+- [Criação de fluxos](https://app.diagrams.net/)
+- [Geradpr de ícones a partr de fotos](https://appicon.co/#downloads)
+- [icones](https://icons8.com/icon/set/popular/material)
+- [imagens vetoriais](https://www.vecteezy.com/free-vector/people)
+- [Lay-outs](https://www.canva.com/pt_br/)
+- [componentes](https://m3.material.io/foundations/glossary)
+- [fonts](https://fonts.google.com/)
+- [icones](https://fonts.google.com/icons?selected=Material+Icons)
+- [cores](https://www.materialpalette.com/)
