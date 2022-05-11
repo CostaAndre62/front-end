@@ -25,3 +25,7 @@
 - [fonts](https://fonts.google.com/)
 - [icones](https://fonts.google.com/icons?selected=Material+Icons)
 - [cores](https://www.materialpalette.com/)
+
+- [Inkscape - software gratuíto para manipular desenhos vetoriais](https://inkscape.org/release/inkscape-1.1.2/)
+- [GIMP - software gratuíto para manipulação de fotos e imagens de qualidade](https://www.gimp.org/)
+- [Bizagi - software gratuíto para gerar fluxos de processos profissionais](https://www.bizagi.com/pt/plataforma/try-modeler)
