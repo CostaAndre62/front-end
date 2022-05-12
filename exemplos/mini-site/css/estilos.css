@@ -1,3 +1,6 @@
+/* Alterar o Box Model padrão */
+* { box-sizing: border-box; }
+
 body {
     background-color: lightblue;
 
@@ -66,3 +69,58 @@ p {
 /* Seletor descendente */
 .editores li { list-style: lower-alpha; }
 
+
+/* Regras para links */
+a { text-decoration: none; }
+
+nav a { /* Estado inicial dos links do menu */
+    background-color: black;
+    color: white;
+    font-weight: bold;    
+    padding: 10px;
+    width: 50%;
+    display: inline-block;
+    transition: 1s;
+}
+
+/* Regra de acionamento (passar o mouse)
+no link. Usamos uma Pseudo-classe :hover */
+nav a:hover {
+    background-color: blue;
+    color: yellow;
+    transform: translateY(-1px);
+}
+
+
+/* Outras pseudo-classes */
+/* ol li:first-child { font-weight: bold; } */
+/* ol li:last-child { text-transform: uppercase; } */
+/* ol li:nth-child(3) { color: red; } */
+
+/* ol li:nth-child(3), ol li:nth-child(4) {
+    color: red;
+} */
+
+/* odd -> ímpar, even -> blue */
+ol li:nth-child(odd) { color: red; }
+ol li:nth-child(even) { color: blue; }
+
+figure {
+    margin:0; /* reset */
+    text-align: center;
+}
+
+figure img { 
+    filter: grayscale(100%); 
+    transition: 500ms; 
+}
+
+figure img:hover { 
+    filter: grayscale(0); 
+    transform: scale(1.05);
+}
+
+
+/* Exercícios:
+Crie livremente novas regras CSS para formatar
+elementos que faltam: h3, h4, hr, b, i, u. */
