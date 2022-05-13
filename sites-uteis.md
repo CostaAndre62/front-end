@@ -8,6 +8,14 @@
 - [Tableless](http://tableless.com.br)
 - [Maujor](http://maujor.com)
 
+## Cheat Sheets (Folhas/Sites de dicas)
+- [CSS Cheat Sheet Interactive](https://htmlcheatsheet.com/css/)
+- [HTML Cheat Sheet Interactive](https://htmlcheatsheet.com/)
+
+## Design Responsivo
+- [9 princípios básicos do web design responsivo](https://rockcontent.com/br/blog/web-design-responsivo/)
+- [Usando Media Queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [Unidades de CSS moderno](https://desenvolvimentoparaweb.com/css/unidades-css-rem-vh-vw-vmin-vmax-ex-ch/)
 
 ## Bancos de imagens
 - [Pixabay](https://pixabay.com/)
