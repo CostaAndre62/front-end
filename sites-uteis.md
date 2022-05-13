@@ -13,6 +13,9 @@
 - [Pixabay](https://pixabay.com/)
 - [Unsplash](https://unsplash.com/)
 
+## Geradores de CSS Gradient
+- [Ultimate CSS Gradient Generator](https://www.colorzilla.com/gradient-editor/)
+- [CSS Gradient](https://cssgradient.io/)
 
 ## Dicas da turma:
 

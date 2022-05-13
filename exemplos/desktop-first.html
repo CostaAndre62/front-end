@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo</title>
+    <style>
+        /* Regras de uso geral */
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            font-weight: normal;
+            font-size: 50px;
+        }
+        h2 { 
+            border-bottom: solid 2px; 
+            padding-left: 5px;
+        }
+        p { 
+            padding: 15px; 
+            font-size: 20px;
+        }
+        hr { display: none; }
+
+        @media screen and (max-width: 762px) {
+            h1 { font-size: 40px; }
+            p { font-size: 18px; }
+            body { background: lightblue; }
+        }
+
+        /* Exercício:
+        Crie uma regra condicional para telas
+        de até 550px em que as seguintes alterações aconteçam:*/
+        @media screen and (max-width: 550px){
+            h1 {
+                text-align: left;
+                color: red;
+                font-family: Arial;
+            } 
+            h2 { 
+                border-bottom: none;
+                text-align: right;
+                font-size: 22px;
+            }
+            p {
+                text-align: center;
+                text-shadow: black 2px 2px 5px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Desktop First</h1>
+    <hr>
+    <h2>Definição</h2>
+    <p>Fluxo de desenvolvimento responsivo pensado inicialmente para telas grandes (computador, notebook etc).</p>
+    <p>Resumo: vai do grande para o pequeno.</p>
+</body>
+</html>
