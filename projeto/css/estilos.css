@@ -13,18 +13,13 @@ h1 {
     padding-left: 10px;
 }
 
-/* #imagem-decorativa {
+#imagem-decorativa {
     background-image: url(../imagens/teclado.jpg);
     height: 450px;
     background-attachment: fixed;
     background-size: cover;
-} */
-#imagem-decorativa {
-    background-image: url(../imagens/teclado.jpg); /* A função URL serve para criar o caminho de busca do arquivo que será exibido */
-    height: 450px;
-    background-size: cover;
-    background-attachment: fixed;
 }
+
 
 main {
     width: 90%;
