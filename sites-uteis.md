@@ -9,6 +9,7 @@
 - [Maujor](http://maujor.com)
 
 ## Cheat Sheets (Folhas/Sites de dicas)
+- [30 Seletores CSS que você deve memorizar](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 - [CSS Cheat Sheet Interactive](https://htmlcheatsheet.com/css/)
 - [HTML Cheat Sheet Interactive](https://htmlcheatsheet.com/)
 
