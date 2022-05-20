@@ -46,10 +46,28 @@ formulario.addEventListener("submit", function(event){
     
     // Capturando o que foi digitado
     let nome = campoNome.value;
-    let nota1 = campoNota1.value;
-    let nota2 = campoNota2.value;
+    let nota1 = parseFloat(campoNota1.value);
+    let nota2 = parseFloat(campoNota2.value);
 
-    console.log(nome, nota1, nota2);
+    // Calculando a média
+    let media = (nota1 + nota2) / 2;
+
+    // Verificando a situação
+    let situacao;
+    if(media >= 7){
+        situacao = "aprovado";
+    } else {
+        situacao = "reprovado";
+    }
+
+    // 1) Criar um elemento dinamicamente
+    let paragrafo = document.createElement('p');
+
+    // 2) Montar o conteúdo deste novo elemento
+    paragrafo.innerHTML = `<b>${nome}</b> - ${media} - ${situacao}`;
+
+    // 3) Colocar este novo elemento/conteúdo no DOM
+    divResultados.appendChild(paragrafo);
 
     // Limpar os campos do formulário
     formulario.reset();
