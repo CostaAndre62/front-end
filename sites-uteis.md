@@ -8,6 +8,11 @@
 - [Tableless](http://tableless.com.br)
 - [Maujor](http://maujor.com)
 
+## Flexbox
+- [Guia de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Jogo Flexbox Froggy](https://flexboxfroggy.com/)
+- [Jogo Flexbox Defense](http://www.flexboxdefense.com/)
+
 ## Cheat Sheets (Folhas/Sites de dicas)
 - [30 Seletores CSS que você deve memorizar](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 - [CSS Cheat Sheet Interactive](https://htmlcheatsheet.com/css/)
