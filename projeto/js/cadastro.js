@@ -25,5 +25,23 @@ formulario.addEventListener("submit", function(event){
         vaga: campoVaga.selectedOptions[0].textContent
     };
 
-    console.log(dados);
-});
+    /* Transmissão dos dados para a API (Técnica Ajax) */
+    fetch(urlCandidatos, {
+        // ENVIO DE DADOS
+        method: "POST", 
+
+        // Converter os dados em JSON
+        body: JSON.stringify(dados), 
+
+        // Cabeçalho da mensagem de dados
+        headers: { // importante p/ back-end api
+            'Content-type' : 'application/json'
+        }
+    })
+    .then(resposta => resposta.json())
+    .then(dados => {
+        console.log(dados);
+        alert("Dados enviados com sucesso!");
+    });
+
+}); // final da função do formulário

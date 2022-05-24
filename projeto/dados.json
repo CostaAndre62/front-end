@@ -1,35 +1,58 @@
 {
-    "vagas": [
-      {
-        "id": 1,
-        "titulo": "Programador Java Pleno"
-      },
-      {
-        "id": 2,
-        "titulo": "Analista Comercial"
-      },
-      {
-        "id": 3,
-        "titulo": "Instrutor Excel Avançado"
-      },
-      {
-        "id": 4,
-        "titulo": "Gerente de Projetos para .NET"
-      },
-      {
-        "id": 5,
-        "titulo": "Consultor de Desenvolvimento Agil"
-      },
-      {
-        "id": 6,
-        "titulo": "Programador VB.Net"
-      },
-      {
-        "id": 7,
-        "titulo": "Desenvolvedor Front-End"
-      }
-    ],
-    "candidatos": [
-    
-    ]
-  }
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java Pleno"
+    },
+    {
+      "id": 2,
+      "titulo": "Analista Comercial"
+    },
+    {
+      "id": 3,
+      "titulo": "Instrutor Excel Avançado"
+    },
+    {
+      "id": 4,
+      "titulo": "Gerente de Projetos para .NET"
+    },
+    {
+      "id": 5,
+      "titulo": "Consultor de Desenvolvimento Agil"
+    },
+    {
+      "id": 6,
+      "titulo": "Programador VB.Net"
+    },
+    {
+      "id": 7,
+      "titulo": "Desenvolvedor Front-End"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "David Gilmour",
+      "data": "1945-10-10",
+      "telefone": "11 2222 3333",
+      "email": "david@gmail.com",
+      "vaga": "Programador Java Pleno",
+      "id": 1
+    },
+    {
+      "nome": "Geddy Lee",
+      "data": "2001-09-23",
+      "telefone": "11 5555-4444",
+      "email": "geddy@hotmail.com",
+      "vaga": "Programador VB.Net",
+      "id": 2
+    },
+    {
+      "nome": " Fulano da Silva",
+      "data": "2009-11-12",
+      "telefone": "11 5555-4444",
+      "email": "fulano@gmail.com",
+      "vaga": "Analista Comercial",
+      "id": 3
+    }
+  ]
+}
