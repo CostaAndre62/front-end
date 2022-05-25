@@ -1,5 +1,6 @@
 // Endereço da API json-server para VAGAS
 let url = "http://localhost:3000/vagas";
+// let url = "../vagas.json";
 
 // Elemento a ser preenchido
 const selectVagas = document.querySelector("#vaga");

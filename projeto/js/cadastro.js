@@ -45,3 +45,9 @@ formulario.addEventListener("submit", function(event){
     });
 
 }); // final da função do formulário
+
+
+/* Ativação da máscara para o telefone 
+(usando jQuery) */
+$(campoTelefone).mask("(00) 0000-0000");
+

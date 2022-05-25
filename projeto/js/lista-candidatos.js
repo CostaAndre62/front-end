@@ -18,6 +18,7 @@ botao.on('click', function(){
         dataType: 'json',
         method: 'GET', // leitura de dados
         success: function(resposta){ // then
+            lista.html(""); // deixando a lista vazia inicialmente
             /* Loop $.each
             Para cada resposta vinda da API, 
             acesse o índice (valor numérico) e o
